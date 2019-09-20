@@ -14,6 +14,13 @@ os = input("...comprising a... \n> ")
 posix = input("as defined by... \n> ")
 kernel = input("kernel \n> ")
 
-adlib = interject.substitute(linux=linux, gnu=gnu, corelibs=corelibs, shell_utilities=shell_utilities, system_components=system_components, os=os, posix=posix, kernel=kernel)
+adlib = interject.substitute(linux=linux, 
+                             gnu=gnu, 
+                             corelibs=corelibs, 
+                             shell_utilities=shell_utilities, 
+                             system_components=system_components, 
+                             os=os, 
+                             posix=posix, 
+                             kernel=kernel)
 
 print(adlib)
